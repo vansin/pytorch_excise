@@ -25,4 +25,5 @@ for t in range(1, 1001):
         print('No.{: 5d}, loss: {:.6f}'.format(t, loss.item()))
     optimizer.zero_grad() # 梯度清零
     loss.backward() # 反向传播计算梯度
-    optimizer.step() # 梯度下降法更新参数
+    optimizer.step() # 梯度下降法更新参数 测试
+
